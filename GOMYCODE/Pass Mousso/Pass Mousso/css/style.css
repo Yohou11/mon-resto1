@@ -1,0 +1,57 @@
+ 
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .root {
+    --bleu: #031cf8;
+    --bleu-hover: #1156ce;
+    --rouge: #d71d1d;
+    --gris-leger: #d6cbcb;
+    --dark: #181212;
+    --secondary: #958989aa;
+    --blanc: #fff;
+ }
+
+ .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: var(--gris-leger);
+ }
+
+ .logo {
+    display: flex;
+    align-items: center;
+ }
+
+ .logo img {
+    width: 50px;
+ }
+
+ .menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+ }
+
+ .menu-lien {
+    text-decoration: none;
+    color: var(--dark);
+ }
+
+ .bouton {
+text-decoration: none;
+background-color: var(--bleu);
+color: var(--rouge);
+padding: 10px;
+border-radius: 8px;
+transition: background-color 0.5s ease;
+ }
+
+ .bouton:hover {
+    background-color: var(--bleu-hover);
+ }
