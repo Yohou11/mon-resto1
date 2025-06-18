@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+<!--barre de navigation--> 
+<nav class="menu">
+   <div class="logo">
+    <img class="logo-image" src="logo1.png" alt="logo">
+    <h1 class="logo-texte">BIENVENU AU BON PRIX</h1>
+    </div>
+    <ul class="menu">
+      <li>
+            <a class="menu-item" href="#">Accueil</a>
+        </li>
+        <li>
+            <a class="menu-item" href="#about">A propos de nous</a>
+        </li>
+        <li>
+            <a class="menu-item" href="#services">Nos services</a>
+        </li>
+        <li>
+            <a class="menu-item"  href="#gallery">Nos réalisations</a>
+        </li>
+        <li>
+            <a class="nav-btn href="#contact">Contactez-nous</a>
+        </li>
+    </ul>
+</nav>
+
+<!--section hero-->
+<section class="hero">
+        <div>
+            <h1>Style Urbain-Mode Tendance a prix malins.</h1>
+           <p>Avec nous, (Livraison rapide - Prix Bas - Qualité Supérieure)</p>
+        </div>
+        <img src="metiers-commerce.jpg" alt="hero-section">
+</section>
+
+<!--a propos de nous-->
+<section id="about">
+    <h2>À propos de nous</h2>
+    <p>Bienvenue au Bon Prix Votre nouvelle adresse mode a petit ptix ! Chez Bon Prix, nous vous proposons une large selection de vetements tendance pour Hommes et Femmes : Ti-shirts, Pantalons, Vestes, Chaussures... tout ce qu'il vous faut pour un look stylé, sans vous ruiner. Nous sommes une boutique en ligne dédiée à offrir des vêtements tendance à des prix abordables. Notre mission est de rendre la mode accessible à tous, sans compromettre la qualité.</p>
+</section>
+  
+<section class="produits">
+    <div class="produit">
+        <img src="veste.jpg" alt="veste">
+        <h1>veste Hommes</h1>
+        <strong> Prix</strong><span class="mx-1"> 10.500 frs</span>
+        <button class="btn btn-primary m-1 p-1">Acheter</button>
+    </div>
+
+    <div class="produit">
+        <img src="jeans.jpg" alt="jeans">
+        <h1>jeans hommes</h1>
+        <strong> Prix</strong><span class="mx-1"> 5000 frs</span>
+        <button class="btn btn-primary m-1 p-1">Acheter</button>
+    </div>
+
+    <div class="produit">
+        <img src="cuir.webp" alt="cuir">
+        <h1>soulier</h1>
+        <strong> Prix</strong><span class="mx-1"> 14000 frs</span>
+        <button class="btn btn-primary m-1 p-1">Acheter</button>
+    </div>
+
+    <div class="produit">
+        <img src="robe.jpg" alt="robe">
+        <h1>robe femmes</h1>
+        <strong> Prix</strong><span class="mx-1"> 8000 frs</span>
+        <button class="btn btn-primary m-1 p-1">Acheter</button>
+    </div>
+</section>
+
+<!--section contact-->
+<section id="contact">
+    <h2>Contactez-nous</h2>
+    <div>
+
+    </div>
+    <!--info de contact-->
+    <div>
+       <a href="">Tel.: 07 01 40 53 32</a>
+       <a href="">Email: maeslejung@gmail.com</a>
+       <p>Adresse: Rue J16 Andre malreaux, cocody riviera 2, Abidjan, Côte d'Ivoire</p>
+    </div>
+<!--map et formulaire-->
+    <div>
+        <!--video-->
+<iframe width="481" height="481" src="https://www.youtube.com/embed/A54xaGJfpCo" title="Couturière spécialisée dans le tailleur - Mon métier en 2 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        <!--map-->
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.397285472007!2d-3.980880874962349!3d5.3561927356264505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ec99e86e20c1%3A0xea1bf12013519288!2sAndr%C3%A9%20Malraux%2C%20Abidjan!5e0!3m2!1sfr!2sci!4v1750196536800!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <!--formulaire de contact-->
+        <form action="">
+            <div>
+                <label for="nom">votre nom</label><br>
+                <input type="text" id="nom" placeholder="Entrez votre nom" required>
+            </div>
+            <div>
+                <label for="telephone">votre numero de telephone</label><br>
+                <input type="tel" id="telephone" placeholder="Entrez votre numéro de téléphone" required>
+            </div>
+            <div>
+                <label for="email">votre email</label><br>
+                <input type="email" id="email" placeholder="Entrez votre email" required>
+            </div>
+            <div>
+                <label for="message">votre message</label><br>
+                <textarea name="" id="message" rows="5" placeholder="saisir votre message"></textarea>
+            </div>
+            <button>Envoyez le message</button>
+        </form>
+    </div>
+</section>
+</body>
+</html>
